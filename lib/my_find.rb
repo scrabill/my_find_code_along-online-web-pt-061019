@@ -6,6 +6,6 @@ def my_find(collection) # The find method returns back the first item in the arr
     if yield(collection[i]) # Pass the current item from the argument into the block, evaluate it...
       return collection[i] # Then return the value back
     end
-    i = i + 1 # Otherwise, Increment counter by 1
+    i = i + 1 # Otherwise, increment counter by 1
   end
 end
